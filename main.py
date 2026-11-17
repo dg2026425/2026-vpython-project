@@ -12,7 +12,7 @@ boat.append(box(pos=vec(0.66,1.13,0), size=vec(1.3,0.8,0.01), texture="https://p
 wave = []
 for i in range(-15,15):
     ry = random.uniform(1,2)
-    wave.append(box(pos = vec(i*0.2,-0.3,-0.2), size = vec(0.2,ry,0.1), color = color.blue, opacity = 0.6))
+    wave.append(box(pos = vec(i*0.2,-0.3,-0.2), color = color.blue, opacity = 0.5))
     
   
 while True :
